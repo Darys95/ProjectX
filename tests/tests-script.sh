@@ -1,2 +1,2 @@
-#!/bin/bush
+#!/bin/bash
 # script to run tests with shebang
