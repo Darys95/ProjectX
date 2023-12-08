@@ -2,6 +2,9 @@
 ProjectX is a web application project aimed at building a responsive and user-friendly platform.
 This README provides an overview of the project, along with instructions on how to run it.
 
+### Getting started
+[see this file](../README.md)
+
 ## Repository Initialization and Structure
 
 ### Repository Creation
