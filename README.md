@@ -3,7 +3,7 @@ Web Browser: Ensure you have a web browser installed on your computer (e.g., Goo
 
 Git: Install Git on your computer if it's not already installed. You can download it from https://git-scm.com/
 
-#Steps:
+# Steps:
 
 ## 1. Clone the Repository:
 
