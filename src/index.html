@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <style>
         body {
@@ -10,34 +9,27 @@
             background-color: #026a81;
             color: #fff;
         }
-
         .header {
             background-color: #08b8b8;
             text-align: center;
             padding: 20px;
         }
-
         .section {
             margin: 20px 0;
             padding: 20px;
             background-color: #00d0d0;
         }
-
-        .contact-form input,
-        .contact-form textarea {
+        .contact-form input, .contact-form textarea {
             width: 100%;
             margin-bottom: 10px;
             padding: 10px;
             border: none;
         }
-
         .navbar {
             background-color: #003747;
-            /* Changed this line */
             overflow: hidden;
             color: white;
         }
-
         .navbar a {
             float: left;
             display: block;
@@ -46,10 +38,8 @@
             padding: 14px 16px;
             text-decoration: none;
         }
-
         .footer {
             background-color: #003747;
-            /* Changed this line */
             text-align: center;
             padding: 10px;
             position: fixed;
@@ -57,9 +47,15 @@
             bottom: 0;
             width: 100%;
         }
+        .bio {
+            display: flex;
+            justify-content: space-between;
+        }
+        .bio div {
+            width: 45%;
+        }
     </style>
 </head>
-
 <body>
     <div class="navbar">
         <a href="#about">About</a>
@@ -67,11 +63,20 @@
         <a href="#contact">Contact</a>
     </div>
     <div class="header">
-        <h1>Collaboration Final Exam</h1>
+        <h1>Welcome to Our Website</h1>
     </div>
     <div class="section" id="about">
         <h2>About Us</h2>
-        <p>This is some information about our company.</p>
+        <div class="bio">
+            <div>
+                <h3>Darys Sandi</h3>
+                <p>Darys is a software engineer student with skills in MongoDB, Express.js, React.js, and Node.js (MERN stack).</p>
+            </div>
+            <div>
+                <h3>Tapiwa Chimbwanda</h3>
+                <p>I am   is a software engineer student with skills in MongoDB, Express.js, React.js, and Node.js (MERN stack).</p>
+            </div>
+        </div>
     </div>
     <div class="section" id="services">
         <h2>Our Services</h2>
@@ -87,8 +92,7 @@
         </form>
     </div>
     <div class="footer">
-        <p>Copyright © 2023 APP4080</p>
+        <p>Copyright © 2022 Your Company Name</p>
     </div>
 </body>
-
 </html>
