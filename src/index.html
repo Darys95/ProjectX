@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #026a81;
+            color: #fff;
+        }
+
+        .header {
+            background-color: #08b8b8;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #00d0d0;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+        }
+
+        .navbar {
+            background-color: #003747;
+            /* Changed this line */
+            overflow: hidden;
+            color: white;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .footer {
+            background-color: #003747;
+            /* Changed this line */
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="header">
+        <h1>Collaboration Final Exam</h1>
+    </div>
+    <div class="section" id="about">
+        <h2>About Us</h2>
+        <p>This is some information about our company.</p>
+    </div>
+    <div class="section" id="services">
+        <h2>Our Services</h2>
+        <p>Here are the services we offer.</p>
+    </div>
+    <div class="section" id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your name" required>
+            <input type="email" placeholder="Your email" required>
+            <textarea placeholder="Your message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="footer">
+        <p>Copyright © 2023 APP4080</p>
+    </div>
+</body>
+
+</html>
